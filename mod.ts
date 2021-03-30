@@ -36,16 +36,17 @@ const page = (title: string, body: string): Response => new Response(`
   }
   main>h1 {
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     display: inline-block;
     animation: shake 0.1s ease infinite;
   }
   p {
-    margin: 1rem 0;
+    margin-top: 2rem;
   }
   p.copyright {
     text-align: center;
+    font-size: 0.5rem;
   }
   a {
     text-decoration: none;
